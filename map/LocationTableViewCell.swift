@@ -13,11 +13,5 @@ class LocationTableViewCell: UITableViewCell {
     @IBOutlet weak var longLabel: UILabel!
     @IBOutlet weak var latLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    
-
+    override func awakeFromNib() {super.awakeFromNib() }
 }

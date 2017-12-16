@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BE9EB8461FE5BADE000EBEE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9EB8451FE5BADE000EBEE8 /* MapKit.framework */; };
-		BE9EB8481FE5C492000EBEE8 /* MKLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EB8471FE5C492000EBEE8 /* MKLocation.swift */; };
 		BED6BC2D1FE5A93A00DECAE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6BC2C1FE5A93A00DECAE7 /* AppDelegate.swift */; };
 		BED6BC2F1FE5A93A00DECAE7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6BC2E1FE5A93A00DECAE7 /* ListViewController.swift */; };
 		BED6BC321FE5A93A00DECAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED6BC301FE5A93A00DECAE7 /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 		02670AFBD5F64A320A79B4A7 /* Pods-map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-map/Pods-map.debug.xcconfig"; sourceTree = "<group>"; };
 		B6738A9BB608F3DE40F17CA1 /* Pods_map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9EB8451FE5BADE000EBEE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		BE9EB8471FE5C492000EBEE8 /* MKLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKLocation.swift; sourceTree = "<group>"; };
 		BED6BC291FE5A93A00DECAE7 /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED6BC2C1FE5A93A00DECAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED6BC2E1FE5A93A00DECAE7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			children = (
 				BED6BC2C1FE5A93A00DECAE7 /* AppDelegate.swift */,
 				BED6BC421FE5B04000DECAE7 /* Location.swift */,
-				BE9EB8471FE5C492000EBEE8 /* MKLocation.swift */,
 				BED6BC2E1FE5A93A00DECAE7 /* ListViewController.swift */,
 				BED6BC401FE5AEF000DECAE7 /* MapViewController.swift */,
 				BED6BC301FE5A93A00DECAE7 /* Main.storyboard */,
@@ -243,7 +240,6 @@
 				BED6BC451FE5B4ED00DECAE7 /* LocationTableViewCell.swift in Sources */,
 				BED6BC411FE5AEF000DECAE7 /* MapViewController.swift in Sources */,
 				BED6BC431FE5B04000DECAE7 /* Location.swift in Sources */,
-				BE9EB8481FE5C492000EBEE8 /* MKLocation.swift in Sources */,
 				BED6BC2D1FE5A93A00DECAE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

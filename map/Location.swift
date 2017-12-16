@@ -10,14 +10,10 @@ import Foundation
 import MapKit
 
 class Location: NSObject ,MKAnnotation {
-//    var latitue: String
-//    var longtitue: String
     var name: String
     var coordinate: CLLocationCoordinate2D
     
     init(lat: Double, long: Double, name: String) {
-//        self.latitue = String(lat)
-//        self.longtitue = String(long)
         self.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: long)
         self.name = name
     }

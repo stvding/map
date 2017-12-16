@@ -60,6 +60,7 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? MapViewController {
             vc.listOfLocations = self.listOfLocations

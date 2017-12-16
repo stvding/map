@@ -12,6 +12,7 @@ import MapKit
 class MapViewController: UIViewController,MKMapViewDelegate {
     @IBOutlet weak var mapView: MKMapView!
     var listOfLocations: [Location]? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mapView.delegate = self
@@ -22,6 +23,5 @@ class MapViewController: UIViewController,MKMapViewDelegate {
             mapView.showAnnotations(list, animated: true)
         }
     }
-    
 }
 
